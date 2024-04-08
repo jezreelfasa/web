@@ -1,0 +1,161 @@
+header {
+    display: flex;
+   
+}
+
+
+.header-content {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-left: 6em;
+    max-width: 380px;
+}
+
+.header-content h2 {
+    width: 600px;
+    font-family: Inter;
+font-size: 64px;
+font-weight: 700;
+line-height: 77.45px;
+text-align: left;
+
+
+}
+
+.header-content p {
+    font-family: var(--font-family);
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+  
+height: 87px;
+gap: 0px;
+opacity: 0px;
+
+}
+
+
+
+.header-content__input {
+    width: 100%;
+    margin: 2rem 0 1rem;
+    display: flex;
+}
+
+.header-content__input {
+    width: 70%;
+    
+
+    display: flex;
+    flex-direction: column;
+}
+
+.header-content__input input {
+    width: 370px;
+    min-height: 50px;
+    font-family: var(--font-family);
+    font-size: 14px;
+    background: #F3F7FE;
+    padding: 0 1rem;
+    outline: none;
+    color: #fff;
+    padding-left: 3em;
+    
+}
+
+
+.header-content__input button {
+  background: #3366FF;
+    flex: 0.6;
+    width: 30%;
+    min-height: 45px;
+    font-weight: bold;
+    font-size: 15px;
+    color: white;
+    cursor: pointer;
+    outline: none;
+    border-radius: 5px;
+  
+    border: none;
+    
+}
+
+
+.search-icon {
+font-weight:normal;
+
+  margin-left: 1em;
+  transform: translateY(-32px);
+}
+
+
+
+
+@media screen and (max-width: 600px){
+.header-content h2 {
+    width: 200px;
+    font-family: Inter;
+font-size: 25px;
+
+line-height: 1.2;
+
+
+
+}
+
+.header-content{
+   margin-left: 4em;
+}
+
+.header-content p {
+    
+    font-size: 15px;
+width: 250px;
+
+}
+
+.header-content__input input {
+    width: 200px;
+    font-size: 13px;
+    
+    
+}
+
+.header-content__input button {
+  
+    width: 40%;
+   
+}
+}
+
+
+
+@media screen and (max-width: 300px){
+
+
+.header-content{
+   margin-left: 1em;
+}
+
+.header-content p {
+    
+    font-size: 13px;
+width: 230px;
+
+}
+
+.header-content__input input {
+    width: 150px;
+    
+    
+    
+}
+
+.header-content__input button {
+  
+    width: 50%;
+   
+}
+}

@@ -1,0 +1,42 @@
+.flex{
+   display: flex;
+   justify-content: space-between;
+}
+
+.rev{
+  padding-right: 6rem;
+   
+}
+.hero {
+   padding-top: 13em;
+}
+
+
+
+@media screen and (max-width: 600px) {
+    .flex{
+      display: block;
+    }
+
+    .rev{
+      margin-top: 3em;
+      
+    }
+    }
+
+    
+
+
+@media screen and (max-width: 768px) {
+    .flex{
+      display: block;
+    }
+
+    .rev img{
+      margin-top: 3em;
+      width: 60%;
+    }
+    }
+
+    
+

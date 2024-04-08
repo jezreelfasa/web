@@ -1,0 +1,34 @@
+.section{
+   margin-top: -3em;
+  width: 506px;
+height: 1024px;
+gap: 0px;
+opacity: 0px;
+  z-index: -1;
+
+}
+
+
+
+
+@media screen and (max-width: 600px) {
+    
+
+    .section img{
+     width: 350px;
+    }
+    }
+
+
+
+@media screen and (max-width: 500px) {
+    
+
+    .section img{
+     width: 350px;
+     align-self: center;
+     margin-left: 1.7em;
+    }
+    }
+
+
