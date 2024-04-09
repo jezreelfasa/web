@@ -1,5 +1,8 @@
 
-import Logo from "../../assets/logo_spatta.png"
+import { Link } from 'react-router-dom';
+
+
+
 import './Navbar.css';
 
 import React, { useState } from 'react';
@@ -23,7 +26,8 @@ const Navbar = () => {
             </div>
             <div className="nav__navbar-sign">
                
-                <a href="/login"><button type="button">LOGIN</button></a>
+               
+<Link to="/login"><button type="button">LOGIN</button></Link>
             </div>
             <div className="nav__navbar-menu">
                 {toggleMenu
